@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Validação</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário de Validação</h1>
+        <h3>Insira o valores no campo abaixo</h3>
+        <form id="form-valid">
+            <label for="A">Valor A:</label>
+            <input type="number" id="campoA" required placeholder="Valor A" />
+            <label for="B">Valor B:</label>
+            <input type="number" id="campoB" required placeholder="Valor B" />
+            <button type="submit" id="Validate">Validar</button>
+            <button type="reset" id="Invaldate">Resete</button>
+        </form>
+        <p class="success-message"></p>
+        <p class="message-error"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
