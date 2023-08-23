@@ -9,21 +9,28 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="css">
         <h1>Formulário de Validação</h1>
         <h3>Insira o valores no campo abaixo</h3>
-        <form id="form-valid">
+        <form id="validaForm">
             <label for="A">Valor A:</label>
             <input type="number" id="campoA" required placeholder="Valor A" />
             <label for="B">Valor B:</label>
             <input type="number" id="campoB" required placeholder="Valor B" />
-            <button type="submit" id="Validate">Validar</button>
-            <button type="reset" id="Invaldate">Resete</button>
+            <button type="submit">Validar</button>
+            <button type="reset" id="limparButton">Resete</button>
         </form>
         <p class="success-message"></p>
-        <p class="message-error"></p>
+        <p class="error-message"></p>
     </div>
     <script src="./main.js"></script>
+    <footer>
+        <div class="css">
+            <p>
+                &copy; Formulário de Validação - Aprendendo JavaScript - 2023
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
